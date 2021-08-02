@@ -1,0 +1,203 @@
+.homestyling{
+    background-image: url(../assets/nordwood-themes-kRNZiGKtz48-unsplash.jpg);
+    background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+height: 100vh;
+/* margin-top: 3vw; */
+}
+.headingdecor{
+    color: #253053;
+    font-weight: 600;
+    font-family: "ProximaNova-Bold", "Helvetica Neue", sans-serif !important;
+    /* text-align: center; */
+    margin-top: 13vw;
+    line-height: 65px;
+    font-size: 4vw;
+
+}
+.subtitiles{
+    margin-top: 1vw;
+    color: #666E86;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+.btnStyling{
+    background: #08BA98;
+    font-size: 1.7vw;
+    width: 16vw;
+    height: 4.3vw;
+    color: white;
+    border: none;
+    margin-top: 1vw;
+    font-weight: 500;
+    border-radius: 0.5rem;
+
+}
+.btnStylingform{
+    background: #253053;
+    font-size: 1.2vw;
+    width: 11vw;
+    height: auto;
+    color: white;
+    border: none;
+    margin-top: 1vw;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    float: right;
+    box-shadow: 0 5px 30px hsl(0deg 0% 53% / 35%);
+
+}
+.spacing{
+    margin-left: 12vw;
+}
+.sectionHeading{
+    color: #253053;
+    text-align: center;
+    font-weight: 500;
+
+}
+.subheadingdecor{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.1vw;
+    color: #666E86;
+    margin-top: 1vw;
+    line-height: 32px;
+}
+.cardDecoration{
+    border: none;
+    box-shadow: 0 5px 30px hsl(0deg 0% 53% / 35%);
+    border-radius: 1.5rem;
+    padding-top: 5vw !important;
+}
+.cardDecorationone{
+    border: none;
+    box-shadow: 0 5px 30px hsl(0deg 0% 53% / 35%);
+    border-radius: 1.5rem;
+    /* padding-top: 5vw !important; */
+}
+.titlecard{
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: #253053;
+
+
+}
+.cardSubtitle{
+    font-size: 1vw;
+    text-align: center;
+    color: #666E86;
+    font-weight: 500;
+
+}
+.avatar {
+    vertical-align: middle;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 5px 30px hsl(0deg 0% 53% / 35%);
+    top: -3vw;
+    left: 7vw;
+  }
+  .inputDesign{
+      display: flex;
+  }
+  .labelDesign{
+      font-size: 1vw;
+      font-weight: 600;
+      color: #253053;
+      margin-right: 4vw;
+
+  }
+  .inputdecore{
+      border: none;
+      border-bottom: 2px solid #08BA98;
+      width: 40vw;
+  }
+  .spacingTask{
+      padding: 0vw 23vw;
+  }
+  .imgdecoreconatct{
+    padding: 0vw 23vw;
+    height: 4vw;
+  }
+  .headingdecorform{
+      font-size: 2vw;
+      font-weight: 600;
+      color: #253053;
+      margin-bottom: 2vw;
+  }
+  .subcard{
+      position: absolute;
+  }
+
+  @media only screen and (max-width: 765px) {
+      .sectionHeading{
+          font-size: 7vw !important;
+      }
+      .subheadingdecor{
+        font-size: 3.3vw;
+        
+        margin-top: 6vw;
+        line-height: 19px;
+      }
+      .titlecard{
+          font-size: 5.5vw;
+      }
+      .cardSubtitle{
+          font-size: 4vw;
+      }
+      .cardDecoration{
+          margin-top: 13vw;
+      }
+      .avatar{
+        width: 17vw;
+        height: 17vw;
+        top: -7vw;
+    left: 7vw;
+      }
+      .homestyling{
+        background-image: url(../assets/poster-pos-N8FHCBDSTco-unsplash.jpg);
+      }
+      .spacing{
+          margin-left: 0px !important;
+      }
+      .headingdecor{
+          font-size: 10vw;
+          text-align: center;
+          line-height: 43px !important;
+          margin-top: 20vw;
+      }
+      .subtitiles{
+        font-weight: 500;
+        font-size: 4.4vw;
+        margin-top: 61vh;
+        text-align: center;
+        padding: 2vw;
+        background: white;
+      }
+      .btnMobile{
+          text-align: center !important;
+      }
+      .btnStyling{
+          font-size: 4.7vw;
+          width: 63vw;
+          height: auto;
+
+      }
+      .spacingTask{
+          padding: 0vw 10vw;
+      }
+      .headingdecorform{
+          font-size: 5vw;
+          margin-bottom: 6vw;
+      }
+      .btnStylingform{
+          font-size: 3.2vw;
+          width: 30vw;
+      }
+  }

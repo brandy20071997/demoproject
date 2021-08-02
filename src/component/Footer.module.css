@@ -1,0 +1,56 @@
+.footerstyling{
+    background-color: #253053;
+    color: white;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    /* margin-top: 5vw; */
+}
+.btnStyling{
+    background: #08BA98;
+    font-size: 1.5vw;
+    width: 14vw;
+    /* height: 4.3vw; */
+    color: white;
+    border: none;
+    /* margin-top: 1vw; */
+    font-weight: 500;
+    border-radius: 1rem;
+
+}
+.fontFooter{
+    font-size: 1.2vw;
+}
+.square{
+    font-size: 3vw;
+}
+
+@media only screen and (max-width: 765px) {
+    .centerdata{
+        text-align: center;
+    }
+    .square{
+        font-size: 7vw !important;
+    }
+    .mobilefooter{
+        font-size: 5vw !important;
+    }
+    .fontFooter{
+        font-size: 3.5vw;
+    }
+    .footerstyling{
+        padding: 7vw !important;
+    }
+    .mobilefooterStart{
+        text-align: center !important;
+        font-size: 5vw !important;
+        margin-top: 7vw !important;
+    }
+    .btncentering{
+        text-align: center;
+    }
+    .btnStyling{
+        width: 45vw !important;
+        font-size: 4.5vw !important;
+    }
+
+}

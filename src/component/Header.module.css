@@ -1,0 +1,44 @@
+.Navheadstyling{
+    font-size: 3vw;
+    color: white !important;
+}
+.navContent{
+    color: white !important;
+    font-size: 1.4vw;
+    margin-left: 2.5vw !important;
+}
+.navContent1{
+    color: white !important;
+    font-size: 1.4vw;
+    margin-left: 3vw;
+}
+.btnNavstyleing{
+    border: 2px solid #08BA98;
+    border-radius: 1rem;
+    margin-left: 2.5vw;
+    width: 7vw;
+    height: 3vw;
+    background: transparent;
+    float: right;
+}
+
+@media only screen and (max-width: 765px) {
+.Navheadstyling{
+    font-size: 8vw;
+    margin-right: 35vw;
+}
+.navContent{
+    font-size: 5vw;
+    margin: 2vw 11vw !important;
+   
+}
+.btnNavstyleing{
+  
+    border-radius: 1rem;
+    font-size: 6vw;
+    margin-left: 6.5vw;
+    width: 36vw;
+    height: auto;
+    float: left !important;
+}
+}
